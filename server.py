@@ -25,7 +25,7 @@ class PPOMusicServer(BaseHTTPRequestHandler):
 
     # user Valence/Arousal, song (agent) state with Valence/Arousal
     state = [0, 0, 0, 0]
-    tracks = Utils.read_data("/home/wigdis/praca_inz/emotion_in_music/annotations/data.csv")
+    tracks = Utils.read_data("./data.csv")
 
 
     # GET - latest song, for starting and closing mobile app purpose
